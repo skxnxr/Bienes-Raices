@@ -42,6 +42,9 @@ h4{
 .d-block {
     display: block!important;
 }
+.contenido-centrado {
+    max-width: 800px;
+}
 /** Botones **/
 .boton {
     color: #ffffff;
@@ -116,7 +119,12 @@ h4{
 .navegacion a:hover{
     color: #71b100;
 }
+/** Mobile Menu **/
+.mobile-menu img {
+    width: 5rem;
 
+        display: none;
+}
 /** Iconos nosotros */
 .iconos-nosotros{
     display: flex;
